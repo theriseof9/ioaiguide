@@ -20,15 +20,14 @@ export default function Home() {
                 <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
                     IOAI Guide
                 </div>
-                <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 text-center pb-5">
-                    A collection of <FlipWords words={["curated", "premium", "high-quality", "advanced", "free"]}/> resources to take you from NOAI to IOAI.
+                <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 text-center pb-5 ">
+                    A collection of <FlipWords className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500" words={["curated", "premium", "high-quality", "advanced", "free"]}/> resources to take you from NOAI to IOAI.
                 </div>
                 <HoverBorderGradient
                     containerClassName="rounded-md"
                     as="button"
                     className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
                     duration={0.5}
-
                 >
                     <a href="/admin">Let's Go</a>
                 </HoverBorderGradient>
