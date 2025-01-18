@@ -6,8 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint-fix": "eslint --fix -c ."
+    "lint": "next lint --fix",
+    "lint-fix": "eslint --fix ."
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.1",
